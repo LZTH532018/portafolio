@@ -1,17 +1,16 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+import HomePage from './pages/HomePage'
 import './App.css'
+import './means/fonts/fonts.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <HomePage />
     </div>
   )
 }
 
-export default App
+export default App;
