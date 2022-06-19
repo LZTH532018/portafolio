@@ -10,7 +10,6 @@ const CardHabilities = ({title, description, icon}) => {
                     <FontAwesomeIcon icon={icon} />
                 </div>
             </div>
-            
         </div>
     )
 }

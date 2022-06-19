@@ -6,9 +6,9 @@ import TitleText from "./atoms/TitleText"
 import SubtitleText from "./atoms/SubtitleText"
 import SimpleText from "./atoms/SimpleText"
 
-const MeSection = () =>{
+const AboutSection = () =>{
     return (
-        <div className="bg-zinc-900 h-auto w-full py-32">
+        <div className="bg-zinc-900 h-auto w-full pt-32">
             <div className="inline-block w-1/2 h-auto">
                 <CardHabilities title="Code" description="Create digital products with unique ideas" icon={faCode} />
                 <CardHabilities title="Design" description="Create digital products with unique ideas" icon={faPenFancy} />
@@ -26,4 +26,4 @@ const MeSection = () =>{
     )
 }
 
-export default MeSection
+export default AboutSection

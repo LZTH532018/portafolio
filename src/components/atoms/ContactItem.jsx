@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const ContactItem = ({url, icon, text, ...props}) =>{
 
-    console.log(props);
-
     return(
         <a href={url}>
             <div className="inline-block px-0.5 2xl:text-2xl 2xl:px-2">
