@@ -6,7 +6,7 @@ import ContactItem from "./atoms/ContactItem"
 const Navbar = () =>{
     return(
         <div className="w-full h-32 bg-neutral-700">
-            <div className="py-10">
+            <div className="py-10 mobile-l:hidden">
                 <div className="w-1/4 inline-block text-2xl text-gray-300 2xl:text-3xl">
                     <p className="inline-block px-0.5 font-bold">Luis</p>
                     <p className="inline-block px-0.5">Gerardo</p>
