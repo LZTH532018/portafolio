@@ -45,11 +45,11 @@ module.exports = {
         }
       },
       screens: {
-        'mobile': {'min': '375px', 'max': '640px'},
+        'mobile': {'min': '300px', 'max': '640px'},
         // => @media (min-width: 375px, max-width: 1040px) { ... }
-        'mobile-l': {'min': '375px', 'max': '816px'},
+        'mobile-l': {'min': '300px', 'max': '816px'},
         // => @media (min-width: 375px, max-width: 1040px) { ... }
-        'tablet-mobile': {'min': '375px', 'max': '1072px'},
+        'tablet-mobile': {'min': '300px', 'max': '1072px'},
         // => @media (min-width: 375px, max-width: 1040px) { ... }
         'tablet': {'min': '640px', 'max': '1072px'},
         // => @media (min-width: 375px, max-width: 1040px) { ... }
