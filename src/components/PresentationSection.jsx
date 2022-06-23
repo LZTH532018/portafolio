@@ -28,16 +28,16 @@ const PresentationSection = () =>{
                     </div>
                 </div>
             </div>
-            <div className=" inline-block w-128 h-128 relative 2xl:w-160 2xl:h-160 tablet:w-96 tablet:h-96 mobile:w-80 mobile:h-80">
-                <div className="z-1 h-96 w-96 absolute rounded-full bg-gradient-to-r from-zinc-900 to-neutral-700 2xl:w-128 2xl:h-128 tablet:w-72 tablet:h-72 mobile:w-64 mobile:h-64"></div>
+            <div className=" inline-block w-128 h-128 relative 2xl:w-160 2xl:h-160 tablet:w-96 tablet:h-96 mobile:w-80 mobile:h-80 mini-mobile:w-52 mini-mobile:h-52 mini-mobile:mt-12">
+                <div className="z-1 h-96 w-96 absolute rounded-full bg-gradient-to-r from-zinc-900 to-neutral-700 2xl:w-128 2xl:h-128 tablet:w-72 tablet:h-72 mobile:w-64 mobile:h-64 mini-mobile:w-40 mini-mobile:h-40"></div>
                 <img className="z-10 h-full w-full absolute right-16 animate-bounce-little-slow tablet:right-12 mobile:right-8" src={meImage} />
-                <div className="w-24 h-24 bg-zinc-900 rounded-full absolute top-12 animate-bounce-big-slow 2xl:w-32 2xl:h-32 tablet-mobile:w-20 tablet-mobile:h-20 tablet-mobile:top-8">
+                <div className="w-24 h-24 bg-zinc-900 rounded-full absolute top-12 animate-bounce-big-slow 2xl:w-32 2xl:h-32 tablet-mobile:w-20 tablet-mobile:h-20 tablet-mobile:top-8 mini-mobile:w-12 mini-mobile:h-12 mini-mobile:top-2">
                     <img className="h-full w-full" src={reactLogo} />
                 </div>
-                <div className="w-20 h-20 bg-zinc-900 rounded-full absolute bottom-8 right-20 animate-bounce-big-slow 2xl:w-24 2xl:h-24 tablet-mobile:w-16 tablet-mobile:h-16 tablet-mobile:bottom-4 tablet-mobile:right-16">
+                <div className="w-20 h-20 bg-zinc-900 rounded-full absolute bottom-8 right-20 animate-bounce-big-slow 2xl:w-24 2xl:h-24 tablet-mobile:w-16 tablet-mobile:h-16 tablet-mobile:bottom-4 tablet-mobile:right-16 mini-mobile:w-12 mini-mobile:h-12 mini-mobile:right-12">
                     <img className="h-full w-full" src={pythonLogo} />
                 </div>
-                <div className="z-20 w-16 h-16 p-2 bg-zinc-900 rounded-full absolute bottom-4 left-20 animate-bounce-big-slow 2xl:w-20 2xl:h-20 tablet-mobile:w-12 tablet-mobile:h-12 tablet-mobile:bottom-2 tablet-mobile:left-12">
+                <div className="z-20 w-16 h-16 p-2 bg-zinc-900 rounded-full absolute bottom-4 left-20 animate-bounce-big-slow 2xl:w-20 2xl:h-20 tablet-mobile:w-12 tablet-mobile:h-12 tablet-mobile:bottom-2 tablet-mobile:left-12 mini-mobile:w-8 mini-mobile:h-8 mini-mobile:left-2 mini-mobile:bottom-2">
                     <img className="h-full w-full" src={cssLogo} />
                 </div>
             </div>

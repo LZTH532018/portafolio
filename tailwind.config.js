@@ -46,17 +46,13 @@ module.exports = {
       },
       screens: {
         'mobile': {'min': '200px', 'max': '640px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
         'mobile-l': {'min': '200px', 'max': '816px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
-        'tablet-mobile': {'min': '200px', 'max': '1072px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
+        'tablet-mobile': {'min': '320px', 'max': '1072px'},
+        'mini-mobile': {'min': '200px', 'max': '320px'},
         'tablet': {'min': '640px', 'max': '1072px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
         'tablet-l-nabvar': {'min': '1008px', 'max': '1072px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
         'tablet-nabvar': {'min': '816px', 'max': '1008px'},
-        // => @media (min-width: 375px, max-width: 1040px) { ... }
+        'pc-nabvar': {'min': '816px'},
       },
     },
   },
