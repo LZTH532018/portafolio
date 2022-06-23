@@ -8,7 +8,7 @@ import SimpleText from "./atoms/SimpleText"
 
 const AboutSection = () =>{
     return (
-        <div className="bg-zinc-900 h-200 w-full py-32 px-8 2xl:h-240 mobile-l:h-auto">
+        <div className="bg-zinc-900 h-200 w-full py-32 px-8 2xl:h-240 mobile-l:h-auto mobile-l:px-4">
             <div className="relative mobile-l:static">
                 <div className="inline-block align-top w-1/2 h-auto text-left pl-4 mobile:w-full absolute right-0 mobile-l:w-full mobile-l:static">
                     <div className="w-full h-auto">

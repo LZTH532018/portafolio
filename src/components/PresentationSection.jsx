@@ -7,7 +7,7 @@ import SimpleText from './atoms/SimpleText'
 
 const PresentationSection = () =>{
     return(
-        <div className="w-full h-auto py-2 2xl:py-24 pl-8">
+        <div className="w-full h-auto py-8 2xl:py-24 pl-8 mobile-l:pl-4">
             <div className="inline-block w-1/2 mobile-l:w-full h-128 relative text-left 2xl:h-160 tablet:h-96">
                 <div className="w-3/4 h-24 absolute px-2 left-0 mobile-l:w-3/4">
                     <div className="bg-green-500 rounded-lg w-fit p-1">
